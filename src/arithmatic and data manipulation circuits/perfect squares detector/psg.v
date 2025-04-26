@@ -9,5 +9,12 @@ module psg #(
     output logic valid,
     output logic ps_f
 );
+
+logic [WIDTH - 1:0] temp; 
+logic sub;
+always@(posedge clk)
+begin
+    
+end
     
 endmodule
